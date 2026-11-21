@@ -12,6 +12,7 @@ dill
 imbalanced-learn
 joblib
 -e .
+gunicorn
 
 # Optional DistilBERT comparison (not required for classical pipeline):
 # transformers
