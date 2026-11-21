@@ -1,0 +1,52 @@
+{
+  "train_rows": 6925,
+  "test_rows": 1732,
+  "n_features": 5000,
+  "tfidf": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.9,
+    "sublinear_tf": true,
+    "vocabulary_size": 5000
+  },
+  "classes": [
+    "ENFJ",
+    "ENFP",
+    "ENTJ",
+    "ENTP",
+    "ESFJ",
+    "ESFP",
+    "ESTJ",
+    "ESTP",
+    "INFJ",
+    "INFP",
+    "INTJ",
+    "INTP",
+    "ISFJ",
+    "ISFP",
+    "ISTJ",
+    "ISTP"
+  ],
+  "axes": {
+    "IE": [
+      "I",
+      "E"
+    ],
+    "NS": [
+      "N",
+      "S"
+    ],
+    "TF": [
+      "T",
+      "F"
+    ],
+    "JP": [
+      "J",
+      "P"
+    ]
+  }
+}

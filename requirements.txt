@@ -1,0 +1,21 @@
+pandas
+numpy
+scikit-learn
+nltk
+flask
+matplotlib
+seaborn
+jupyter
+ipykernel
+xgboost
+dill
+imbalanced-learn
+joblib
+-e .
+
+# Optional DistilBERT comparison (not required for classical pipeline):
+# transformers
+# torch
+# datasets
+# evaluate
+# accelerate

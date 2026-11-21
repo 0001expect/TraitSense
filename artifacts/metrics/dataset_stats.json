@@ -1,0 +1,56 @@
+{
+  "raw": {
+    "stage": "raw",
+    "rows": 8675,
+    "unique_types": 16,
+    "missing_type": 0,
+    "missing_posts": 0,
+    "avg_word_count": 1226.2414985590779,
+    "median_word_count": 1278.0,
+    "class_distribution": {
+      "INFP": 1832,
+      "INFJ": 1470,
+      "INTP": 1304,
+      "INTJ": 1091,
+      "ENTP": 685,
+      "ENFP": 675,
+      "ISTP": 337,
+      "ISFP": 271,
+      "ENTJ": 231,
+      "ISTJ": 205,
+      "ENFJ": 190,
+      "ISFJ": 166,
+      "ESTP": 89,
+      "ESFP": 48,
+      "ESFJ": 42,
+      "ESTJ": 39
+    }
+  },
+  "cleaned": {
+    "stage": "cleaned",
+    "rows": 8657,
+    "unique_types": 16,
+    "missing_type": 0,
+    "missing_posts": 0,
+    "avg_word_count": 1228.5200415848446,
+    "median_word_count": 1278.0,
+    "class_distribution": {
+      "INFP": 1828,
+      "INFJ": 1468,
+      "INTP": 1301,
+      "INTJ": 1089,
+      "ENTP": 684,
+      "ENFP": 674,
+      "ISTP": 335,
+      "ISFP": 271,
+      "ENTJ": 231,
+      "ISTJ": 205,
+      "ENFJ": 190,
+      "ISFJ": 164,
+      "ESTP": 88,
+      "ESFP": 48,
+      "ESFJ": 42,
+      "ESTJ": 39
+    }
+  }
+}

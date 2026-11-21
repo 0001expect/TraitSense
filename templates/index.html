@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choose Assessment | PersonaType</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand-link" href="/">PersonaType</a>
+  </header>
+
+  <main class="choice-page">
+    <div class="choice-header">
+      <p class="brand">PersonaType</p>
+      <h1>Choose Your Personality Assessment Method</h1>
+      <p class="lede">
+        Pick how you’d like to discover your MBTI type. Both paths are independent —
+        you can always come back and try the other.
+      </p>
+    </div>
+
+    <div class="choice-grid">
+      <article class="choice-card">
+        <p class="choice-icon" aria-hidden="true">📝</p>
+        <h2>Free Text Analysis</h2>
+        <p class="choice-desc">
+          Uses my trained Machine Learning model to analyze your writing style and language patterns.
+        </p>
+        <ul class="choice-list">
+          <li>Best accuracy when writing 100+ words.</li>
+          <li>Estimated time: 5–10 minutes.</li>
+          <li>Good for users who prefer describing themselves.</li>
+        </ul>
+        <a class="cta choice-cta" href="{{ url_for('predict_datapoint') }}">Start Text Analysis</a>
+      </article>
+
+      <article class="choice-card choice-card--featured">
+        <p class="choice-badge">Recommended</p>
+        <p class="choice-icon" aria-hidden="true">📋</p>
+        <h2>Questionnaire Assessment</h2>
+        <p class="choice-desc">
+          Answer a scientifically designed personality questionnaire using multiple-choice questions.
+        </p>
+        <ul class="choice-list">
+          <li>No writing required.</li>
+          <li>Estimated time: 5 minutes.</li>
+          <li>Beginner friendly.</li>
+          <li>Interactive experience.</li>
+        </ul>
+        <a class="cta choice-cta" href="{{ url_for('questionnaire_page') }}">Start Questionnaire</a>
+      </article>
+    </div>
+
+    <p class="disclaimer hero-disclaimer">{{ disclaimer }}</p>
+  </main>
+</body>
+</html>

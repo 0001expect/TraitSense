@@ -1,0 +1,48 @@
+{
+  "tfidf": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.9,
+    "sublinear_tf": true
+  },
+  "data_quality": {
+    "min_word_count": 50,
+    "min_char_count": 200,
+    "remove_duplicates": true
+  },
+  "train": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "use_class_weight": true,
+    "use_random_oversampler": false,
+    "tune_hyperparams": false,
+    "n_iter_search": 3,
+    "cv_folds": 2,
+    "scoring": "f1_weighted",
+    "quick_mode": true,
+    "skip_slow_models": true,
+    "skip_ensemble": false
+  },
+  "axes": {
+    "IE": [
+      "I",
+      "E"
+    ],
+    "NS": [
+      "N",
+      "S"
+    ],
+    "TF": [
+      "T",
+      "F"
+    ],
+    "JP": [
+      "J",
+      "P"
+    ]
+  }
+}
